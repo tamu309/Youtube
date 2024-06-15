@@ -1,0 +1,105 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    color: white;
+}
+/* Navbar section started */
+
+#NavbarSection{
+    background-color: #151b1b;
+   
+}
+#NavbarMainDiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#LogoDiv>img{
+  height: 60px;
+  width: 80%;
+  padding: 30px;
+  border-radius: 50px;
+}
+#Searchbardiv{
+    display: flex;
+    padding: 20px 40px;
+    gap: 10px;
+}
+
+input{
+    padding: 15px 70px;
+    border-radius: 20px;
+    font-size: 25px;
+    color: white;
+}
+#Searchbardiv>img{
+    height: 50px;
+    width: 50px;
+    padding: 5px 0px;
+    border-radius: 20%;
+
+}
+#MenuDiv>img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+
+}
+/* Navbar section ended */
+
+/* Button section started */
+
+#ButtonSection>button{
+    padding: 4px 8px;
+    font-size: 24px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+/* Button section ended */
+
+/* Youtube Thumble Section started */
+
+#ThumbleSection{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+div>img{
+    width: 100%;
+}
+.Thumble{
+    display: flex;
+    gap: 15px;
+}
+
+.IconDiv>img{
+    margin: 5px;
+    padding: 20px 0px;
+    border-radius: 50%;
+}
+.ThumbleType{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.ThumbleType>img{
+    height: 15px;
+    width: 15px;
+}
+.Views{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 5px;
+}
+.Views>img{
+    height: 8px;
+    width:4px;
+}
+
+/* Youtube Thumble Section Ended */
+
